@@ -66,7 +66,7 @@
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
                     <appendAssemblyId>false</appendAssemblyId>
-                    <finalName>${project.artifactId}-v${project.version}</finalName>
+                    <finalName>${project.artifactId}-assembled-v${project.version}</finalName>
                 </configuration>
             </plugin>
 <!--            <plugin>-->
