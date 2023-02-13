@@ -1,2 +1,3 @@
+org\msilot1001\boatplug\SwapItemEvent.class
 org\msilot1001\boatplug\BoatPlug.class
-org\msilot1001\boatplug\EventListener.class
+org\msilot1001\boatplug\BoatMoveEvent.class

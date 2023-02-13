@@ -8,7 +8,8 @@ public class BoatPlug extends JavaPlugin {
     @Override
     public void onEnable() {
         Bukkit.getLogger().info("[BoatPatch] Boat Patcher Enabled");
-        getServer().getPluginManager().registerEvents(new EventListener(), this);
+        getServer().getPluginManager().registerEvents(new BoatMoveEvent(), this);
+        getServer().getPluginManager().registerEvents(new SwapItemEvent(), this);
     }
 
     @Override
