@@ -192,6 +192,9 @@ public class BoatMoveEvent implements Listener{
 
                 player.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(component));
                 //endregion
+
+                // velocity
+                Bukkit.getLogger().info(event.getVehicle().getVelocity().toString());
             }
         }
     }
